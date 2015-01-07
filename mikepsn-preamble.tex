@@ -1,0 +1,60 @@
+\usepackage[framemethod=TikZ]{mdframed} 
+\usepackage{lipsum} 
+\usepackage{microtype} 
+%\usepackage{mathptmx} 
+\usepackage{pifont} 
+\usepackage{graphicx} 
+
+\usepackage{listings} 
+\lstset{language=python, 
+        %basicstyle=\footnotesize\ttfamily, 
+        basicstyle=\small\ttfamily,
+        columns=fullflexible, 
+        %title=\lstname, 
+        %numbers=left, stringstyle=\texttt, 
+        %numberstyle={\tiny\texttt}, 
+        keywordstyle=\color{blue}, 
+        commentstyle=\color{darkgreen}, 
+        stringstyle=\color{purple} } 
+
+\lstdefinestyle{json}{
+        language=python, 
+        basicstyle=\tiny\ttfamily,
+        columns=fullflexible, 
+        %title=\lstname, 
+        %numbers=left, stringstyle=\texttt, 
+        %numberstyle={\tiny\texttt}, 
+        keywordstyle=\color{blue}, 
+        commentstyle=\color{darkgreen}, 
+        stringstyle=\color{purple}
+}
+
+
+\mdfsetup{skipabove=\topskip, skipbelow=\topskip} 
+
+\definecolor{codebg}{rgb}{0.99,0.99,0.99}
+\definecolor{darkgreen}{rgb}{0.0, 0.5, 0.0}
+
+\global\mdfdefinestyle{code}{%
+    frametitlerule=true,%
+    frametitlefont=\small\bfseries\ttfamily,%
+    frametitlebackgroundcolor=lightgray,%
+    backgroundcolor=codebg,%
+    linecolor=gray, linewidth=0.5pt,%
+    leftmargin=0.5cm, rightmargin=0.5cm,%
+    roundcorner=2pt,%
+    innerleftmargin=5pt
+}
+
+\global\mdfdefinestyle{code2}{%
+    topline=false,%
+    bottomline=false,%
+    leftline=true,%
+    rightline=false,%
+    backgroundcolor=codebg,%
+    linecolor=gray, linewidth=0.5pt,%
+    leftmargin=0.0cm, rightmargin=0.0cm,%
+    innerleftmargin=1pt
+}
+
+
