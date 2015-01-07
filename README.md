@@ -1,5 +1,6 @@
 # ai-graphics
 Intelligent Agents in Virtual Environments 
+
 Intersection of Artificial Intelligence and Computer Graphics 
 
 This repository contains the LaTeX source for a beamer formatted presentation
